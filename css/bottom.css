@@ -1,0 +1,32 @@
+.footer{
+    border: 1px solid red;
+    display:grid;
+    width: 93%;
+    margin-left: 10px;
+    justify-content: center;
+}
+.footer p{
+    align-items: center;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.con{
+  border: 1px solid black;
+  width: 2pc;
+  height: 2pc;
+  padding: 6px;
+  text-decoration: underline;
+}
+.con1{
+  margin-left: 10px;
+}
+.con span{
+  font-size: 17px;
+}
+.con span:hover{
+  color: blue;
+  cursor: pointer;
+}

@@ -1,0 +1,78 @@
+.T-course-box{
+  width: 92%;
+  padding: 10px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+h3{
+    margin-left: 15px;
+}
+.T-course-box ul{
+  list-style: none;
+  display: flex;
+}
+.T-course-box ul li{
+  margin: 10px;
+  color: gray;
+  cursor: pointer;
+}
+.T-course-box ul .active{
+  color: #000;
+}
+button{
+  border: none;
+}
+
+.T-box{
+  width: 70%;
+  padding: 10px;
+  margin-left: 8pc;
+  border-radius: 10px;
+  background: rgb(235, 233, 233);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.T-box p{
+  font-size: 8px;
+  margin-top: 5px;
+}
+.T-box input {
+  width: 25pc;
+  height: 2.5pc;
+  padding: 12px 16px;
+  margin-top: 10px;
+  border: 2px solid #0067ac;
+  border-radius: 8px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.T-box select{
+  width: 20pc;
+  height: 2.5pc;
+  padding: 8px 14px;
+  margin-top: 10px;
+  border: 2px solid #0067ac;
+  border-radius: 8px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.T-box h4{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.T-course button{
+  background:  blue;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 10px;
+  margin-left: 28pc;
+  cursor: pointer;
+  height: 2.3pc;
+  width: 5pc;
+}
+.T-course button:hover{
+  background:  #007fd3;
+}

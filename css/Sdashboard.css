@@ -1,0 +1,321 @@
+/*main section*/
+
+.page-top{
+  width: 100%;
+  display: flex;
+}
+.page-top img{
+  width: 15pc;
+  margin-left: 20px;
+}
+.main-theam{
+  width: 30pc;
+  height: 5pc;
+  font-size: 1.6em;
+  margin-top: 5.5pc;
+  font-weight: 700;
+}
+.main-theam span{
+  font-size: 20px;
+}
+/*.contac{
+  width: 30pc;
+  margin-left: 70px;
+}
+.con{
+  width: 20pc;
+  height: 2pc;
+  margin-top: 5px;
+  padding: 4px;
+  margin-left: 10pc;
+  text-decoration: underline;
+}
+.con1{
+  margin-top: 3pc;
+}
+.con span{
+  font-size: 17px;
+}
+.con span:hover{
+  color: blue;
+  cursor: pointer;
+}*/
+
+.notice-board{
+  width: 70%;
+  height: 15pc;
+  margin-left: 8.6pc;
+  border-radius: 10px;
+  background: url(HompageImgCss/digital-contents-concept-social-networking-260nw-2164090919.webp);
+}
+
+
+.home-section{
+  position: relative;
+  pad: 20px;
+  width: 100%;
+}
+.main-top{
+  display: flex;
+  width: 100px;
+}
+.main-top i{
+  position: absolute;
+  right: 0;
+  margin: 10px 30px;
+  color: rgb(11, 109, 109);
+  cursor: pointer;
+}
+.main-skills{
+  display: flex;
+  margin-top: 0px;
+}
+.main-skills .card{
+  width: 22%;
+  margin: 10px;
+  background: #fff;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 1 20px 35px rgb(0, 0, 0, 0.1);
+}
+.main-skills .card h3{
+  margin: 10px;
+  text-transform: capitalize;
+}
+.main-skills .card p{
+  font-size: 12px;
+}
+.main-skills .card button{
+  background: blue;
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  width: 10pc;
+  margin-left: 3.5pc;
+}
+.main-skills .card button:hover{
+  background: #0067ac;
+}
+.main-skills .card i{
+  font-size: 22px;
+  padding: 10px;
+}
+
+/*course*/
+.main-course{
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+.main-course h1{
+  margin-left: 15px;
+}
+.course-box{
+  width: 92%;
+  padding: 10px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.course-box ul{
+  list-style: none;
+  display: flex;
+}
+.course-box ul li{
+  margin: 10px;
+  color: gray;
+  cursor: pointer;
+}
+.course-box ul .active{
+  color: #000;
+}
+button{
+  border: none;
+}
+.course-box .course{
+  display: flex;
+}
+.box{
+  width: 35%;
+  height: 8pc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background: rgb(235, 233, 233);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.box p{
+  font-size: 12px;
+  margin-top: 5px;
+}
+/*.box button{
+  background: #000;
+  color: #fff;
+  padding: 7px 10px;
+  border-radius: 10px;
+  margin-top: 0rem;
+  margin-left: 19pc;
+  cursor: pointer;
+}
+.box button:hover{
+  background: rgba(29, 29, 29, 0.842);
+}*/
+
+
+.box select{
+  width: 17pc;
+  height: 3pc;
+  padding: 12px 16px;
+  margin-top: 10px;
+  border: 2px solid #0067ac;
+  border-radius: 8px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.box h4{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/*dropdown search box*/
+
+ .dropdown-container {
+      width: 250px;
+      position: relative;
+    }
+
+    .search-box {
+      width: 17pc;
+      height: 3pc;
+      padding: 12px 16px;
+      border: 2px solid #0067ac;
+      border-radius: 8px;
+      box-sizing: border-box;
+      margin-left: 20px;
+      margin-top: 6px;
+      font-size: 15px;
+    }
+
+    .dropdown-list {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      max-height: 150px;
+      overflow-y: auto;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-top: none;
+      border-radius: 0 0 6px 6px;
+      display: none;
+      z-index: 10;
+    }
+
+    .dropdown-list div {
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+
+    .dropdown-list div:hover {
+      background: #dbe6ee;
+    }
+
+    /* Scrollbar styling (Chrome/Edge) */
+    .dropdown-list::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .dropdown-list::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 4px;
+    }
+
+    .dropdown-list::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+/*course list*/
+  .box1{
+  width: 75%;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 3pc;
+  border-radius: 10px;
+  background: rgb(235, 233, 233);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.box1 img{
+  height: 60px;
+  width:60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.box1 .profile_details{
+  display: flex;
+  align-items: center;
+  flex-wrap:  nowrap;
+}
+.box1 .profile_content{
+  margin-top: 15px;
+}
+.box1 .profile_details .name, .designation{
+  font-size: 15px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.box1 .profile_details .name{
+  font-weight: 700;
+}
+.class-name{
+  border: 1px solid #0067ac;
+  width: 70%;
+  height: 2.5pc;
+  margin-top: 16px;
+  margin-left: 10px;
+  color: white;
+  background-color: #0067ac;
+  border-radius: 8px;
+  padding: 8px;
+}
+.class-time{
+  width: 50%;
+  height: 3.5pc;
+  margin-left: 30px;
+  padding: 12px;
+}
+
+.course button{
+  background: blue;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 10px;
+  margin-top: 6rem;
+  margin-left: 4px;
+  cursor: pointer;
+  height: 2.3pc;
+}
+.course button:hover{
+  background:  #007fd3;
+}
+.join-btn{
+  background:  blue;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 10px;
+  margin-left: 37.5pc;
+  cursor: pointer;
+  height: 2.3pc;
+  width: 5pc;
+}
+.join-btn:hover{
+  background:  #007fd3;
+}
+.btn-upload{
+  background-color: rgb(255, 72, 0);
+}
